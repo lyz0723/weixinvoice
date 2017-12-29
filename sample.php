@@ -176,76 +176,9 @@ $signPackage = $jssdk->GetSignPackage();
               // 用户取消分享后执行的回调函数
           }
       });
-
-      wx.onVoicePlayEnd({
-          success: function (res) {
-              stopWave();
-          }
-      });
+      
   });
 
-  $('#wenwen').on('touchstart', function(event){
-      event.preventDefault();
-      START = new Date().getTime();
 
-      recordTimer = setTimeout(function(){
-          wx.startRecord({
-              success: function(){
-                  localStorage.rainAllowRecord = 'true';
-              },
-              cancel: function () {
-                  alert('用户拒绝授权录音');
-              }
-          });
-      },300);
-  });
-
-  //松手结束录音
-  $('#wenwen').on('touchend', function(event){
-      event.preventDefault();
-      END = new Date().getTime();
-
-      if((END - START) < 300){
-          END = 0;
-          START = 0;
-          //小于300ms，不录音
-          clearTimeout(recordTimer);
-      }else{
-          wx.stopRecord({
-              success: function (res) {
-                  voice.localId = res.localId;
-                  uploadVoice();
-              },
-              fail: function (res) {
-                  alert(JSON.stringify(res));
-              }
-          });
-      }
-  });
-
-  //上传录音
-  function uploadVoice(){
-      //调用微信的上传录音接口把本地录音先上传到微信的服务器
-      //不过，微信只保留3天，而我们需要长期保存，我们需要把资源从微信服务器下载到自己的服务器
-      wx.uploadVoice({
-          localId: voice.localId, // 需要上传的音频的本地ID，由stopRecord接口获得
-          isShowProgressTips: 1, // 默认为1，显示进度提示
-          success: function (res) {
-              //把录音在微信服务器上的id（res.serverId）发送到自己的服务器供下载。
-              $.ajax({
-                  url:'voice.php',
-                  type: 'post',
-                  data: {"voice":JSON.stringify(res)},
-                  dataType: "json",
-                  success: function (data) {
-                      alert(data);//这回，我使用七牛存储
-                  },
-                  error: function (xhr, errorType, error) {
-                      console.log(error);
-                  }
-              });
-          }
-      });
-  }
 </script>
 </html>
