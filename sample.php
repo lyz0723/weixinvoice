@@ -177,20 +177,10 @@ $signPackage = $jssdk->GetSignPackage();
           }
       });
 
-      $("#wenwen").click(function(){
-          wx.startRecord({
-              success: function () {
-                  alert(333)
-                  // 用户确认分享后执行的回调函数
-              },
 
-              cancel: function () {
-                  alert(222)
-                  // 用户取消分享后执行的回调函数
-              }
-          });
+          wx.startRecord();
 
-      })
+
   });
 </script>
 </html>
