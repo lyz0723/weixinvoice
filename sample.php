@@ -176,11 +176,22 @@ $signPackage = $jssdk->GetSignPackage();
               // 用户取消分享后执行的回调函数
           }
       });
+  });
 
+  $('#wenwen').on('touchstart', function(event){
+      event.preventDefault();
+      START = new Date().getTime();
 
-          wx.startRecord();
-
-
+      recordTimer = setTimeout(function(){
+          wx.startRecord({
+              success: function(){
+                  localStorage.rainAllowRecord = 'true';
+              },
+              cancel: function () {
+                  alert('用户拒绝授权录音');
+              }
+          });
+      },300);
   });
 </script>
 </html>
