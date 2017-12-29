@@ -14,7 +14,7 @@ $signPackage = $jssdk->GetSignPackage();
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" media="screen" />
-    <title>HTML5手机微信聊天界面代码</title>
+    <title>聊天demo</title>
     <style type="text/css">
         body{background:url(images/yuyin_bg.png) no-repeat;background-size:100%;}
         @media all and (min-width: 640px) {
@@ -128,28 +128,29 @@ $signPackage = $jssdk->GetSignPackage();
 
         'onMenuShareQZone',
 
-	'startRecord',
+        'startRecord',
 
-	'stopRecord',
+        'stopRecord',
 
-	'onVoiceRecordEnd',
+        'onVoiceRecordEnd',
 
-	'playVoice',
+        'playVoice',
 
-	'pauseVoice',
+        'pauseVoice',
 
-	'stopVoice',
+        'stopVoice',
 
-	'onVoicePlayEnd',
+        'onVoicePlayEnd',
 
-	'uploadVoice',
+        'uploadVoice',
 
-	'downloadVoice',
+        'downloadVoice',
 
-	'translateVoice',
+        'translateVoice',
 
     ]
   });
+
   wx.ready(function () {
       wx.onMenuShareAppMessage({
 
@@ -157,9 +158,9 @@ $signPackage = $jssdk->GetSignPackage();
 
           desc: '分享描述', // 分享描述
 
-          link: 'https://liyanzhao.feisir.com/weixin/sample.php', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+          link: 'http://liyanzhao.feisir.com/weixinvoice/sample.php', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 
-          imgUrl: 'https://liyanzhao.feisir.com/logo.png', // 分享图标
+          imgUrl: 'http://liyanzhao.feisir.com/logo.png', // 分享图标
 
           type: '', // 分享类型,music、video或link，不填默认为link
 
@@ -168,16 +169,28 @@ $signPackage = $jssdk->GetSignPackage();
           success: function () {
                 alert(333)
               // 用户确认分享后执行的回调函数
-
           },
 
           cancel: function () {
                 alert(222)
               // 用户取消分享后执行的回调函数
-
           }
-
       });
+
+      $("#wenwen").click(function(){
+          wx.startRecord({
+              success: function () {
+                  alert(333)
+                  // 用户确认分享后执行的回调函数
+              },
+
+              cancel: function () {
+                  alert(222)
+                  // 用户取消分享后执行的回调函数
+              }
+          });
+
+      })
   });
 </script>
 </html>
