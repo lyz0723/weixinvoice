@@ -275,7 +275,7 @@ $signPackage = $jssdk->GetSignPackage();
         })
     })
 </script>
-<script src="__PUBLIC__web_common/js/teacher-room.js"></script>
+<script src="web_common/js/teacher-room.js"></script>
 <script>
-    var urlval = "__PUBLIC__web_common/";
+    var urlval = "web_common/";
 </script>

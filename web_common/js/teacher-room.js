@@ -274,7 +274,6 @@ $(document).ready(function(){
 	time = null;
 	//点击语音弹出红色录音按钮框再点击取消
 	$(".sounds").on("click",function(){
-        alert(3333333)
 		if($(".sounds").attr("data-name")==0){
 			$(".voice_show").css("height",reHeight);
 			$(".tape_box").css("display","block");
