@@ -546,7 +546,7 @@ $(document).ready(function(){
 			error:function(){
 			}
 		});
-	},1000)
+	},100000)
 	//点击讨论弹出讨论区
 	$(".discuss_room").on("click",function(){
 		$(".dis_show").html("");
