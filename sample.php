@@ -52,11 +52,11 @@ $signPackage = $jssdk->GetSignPackage();
         <!--底部语音和文字按钮-->
         <div class="voice_word">
             <div class="sounds" data-name="0">
-                <img src="__PUBLIC__/web_common/jzb2/images/voice.png"/>
+                <img src="/web_common/jzb2/images/voice.png"/>
                 语音
             </div>
             <div class="character">
-                <img src="__PUBLIC__/web_common/jzb2/images/word.png"/>
+                <img src="/web_common/jzb2/images/word.png"/>
                 文字</div>
         </div>
         <!--录音框-->
@@ -116,7 +116,7 @@ $signPackage = $jssdk->GetSignPackage();
     </div>
     <!--使用说明-->
     <div class="use_ins">
-        <img src="__PUBLIC__/web_common/jzb2/images/teacher_shm.png"/>
+        <img src="/web_common/jzb2/images/teacher_shm.png"/>
     </div>
     <!--上墙回复弹框-->
     <div class="up_wall_float">
@@ -130,9 +130,9 @@ $signPackage = $jssdk->GetSignPackage();
     </div>
     <!--最右侧底部按钮-->
     <div class="right_fixed">
-        <img src="__PUBLIC__/web_common/jzb2/images/close.png" class="close"/>
-        <img src="__PUBLIC__/web_common/jzb2/images/refresh.png" class="refresh"/>
-        <img src="__PUBLIC__/web_common/jzb2/images/more.png" class="more"/>
+        <img src="/web_common/jzb2/images/close.png" class="close"/>
+        <img src="/web_common/jzb2/images/refresh.png" class="refresh"/>
+        <img src="/web_common/jzb2/images/more.png" class="more"/>
     </div>
     <!--关闭直播间弹窗-->
     <div class="close_float">
@@ -178,7 +178,7 @@ $signPackage = $jssdk->GetSignPackage();
                 </div>
             </div>
             <div class="intr_box_btm">
-                <img src="__PUBLIC__/web_common/jzb2/images/intro.png"/>
+                <img src="/web_common/jzb2/images/intro.png"/>
                 <p>直播介绍</p>
             </div>
         </div>
@@ -195,7 +195,7 @@ $signPackage = $jssdk->GetSignPackage();
         </div>
         <div class="dis_btm">
             <div class="dis_pj">
-                <img src="__PUBLIC__/web_common/jzb2/images/pencil2.png" class="pencil"/>
+                <img src="/web_common/jzb2/images/pencil2.png" class="pencil"/>
                 来说点什么吧...
             </div>
         </div>
