@@ -1,0 +1,74 @@
+/*.page{*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+/*}*/
+/*.bg{*/
+	/*background: white;*/
+    /*background-size: 100% 100%;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.tv{*/
+	/*height: 2.25rem;*/
+    /*background: url(../images/tv.png);*/
+    /*background-size: 100% 100%;*/
+    /*margin: 0 auto 0.3rem;*/
+/*}*/
+/*.dzh-title{*/
+	/*font-size: 0.2rem;*/
+	/*color: #333;*/
+	/*text-align: center;*/
+/*}*/
+/*.ex{*/
+	/*width: 3.4rem;*/
+	/*padding-bottom: 0.1rem;*/
+	/*margin: 0.2rem auto;*/
+	/*font-size: 0.16rem;*/
+	/*color: #333333;*/
+	/*text-indent: 0.3rem;*/
+	/*line-height: 0.23rem;*/
+/*}*/
+/*.next-step{*/
+	/*display: inherit;*/
+    /*width: 1.6rem;*/
+    /*height: 0.4rem;*/
+/*}*/
+/*.next-step{*/
+	/*background: url(../images/startdz.png);*/
+    /*width: 2.22rem;*/
+    /*height: 0.4rem;*/
+    /*background-size: 100% 100%;*/
+    /*margin: auto;*/
+/*}*/
+/*.btm{*/
+	/*width: 3.42rem;*/
+    /*height: 0.5rem;*/
+    /*background: url(../images/quesbtm.png);*/
+    /*background-size: 100% 100%;*/
+    /*margin: 0.2rem 0.06rem 0.2rem 0.06rem;*/
+    /*display: none;*/
+/*}*/
+.page{
+	width: 100%;
+	height: 100%;
+}
+.bg{
+	background: white;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.tv{
+	width: 3.75rem;
+	height: 10.72rem;
+	background: url(../images/tv.png) no-repeat;
+	background-size: 100% 100%;
+	/*margin: 0 auto 0.3rem;*/
+}
+.next-step{
+	width: 2.985rem;
+	height: 2.645rem;
+	background: url(../images/startdz.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	margin-left: 0.4rem;
+	bottom: 0;
+}

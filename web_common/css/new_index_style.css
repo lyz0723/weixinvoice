@@ -1,0 +1,39 @@
+/*头部（包括tab栏）*/
+body,html{height:100%;background:#f4f4f4;}
+.header{width:100%;}
+.header .banner{width:100%;height:1.78rem;}
+.banner>a{display: block;}
+.banner img{display: block;width:100%;height:100%;}
+.header .tab-box{width:100%;height:0.73rem;box-shadow: 0 0 4px #000;background:#fff;}
+.tab-box li{width:0.575rem;height:100%;float:left;margin-right:0.335rem;}
+.tab-box li a{display:block;}
+.tab-box li a div{width:0.27rem;height:0.25rem;background:url(../images/icon_dz.png) no-repeat;background-size:100% 100%;margin-top:0.17rem;margin-left:0.15rem;}
+.tab-box li a .book{background:url(../images/icon_kc.png) no-repeat;background-size:100% 100%;}
+.tab-box li a .paihang{background:url(../images/icon_ph.png) no-repeat;background-size:100% 100%;}
+.tab-box li a p{width:0.575rem;text-align: center;font-size:0.125rem;color:#666;margin-top:0.06rem;}
+/*内容部分*/
+.content-box{width:3.57rem;margin:0 auto;background:#fff;margin-top:0.08rem;}
+.content-box .content{width:3.315rem;margin:0 auto;}
+.content-box h4{width:3.17rem;height:0.415rem;}
+.content-box h4 em{float:left;width:0.05rem;height:0.18rem;background:url(../images/biaozhi.png) no-repeat;background-size:100% 100%;margin-left:0.145rem;margin-top:0.14rem;}
+.content-box h4>span{float:left;font-size:0.16rem;color:#44adf7;margin-left:0.075rem;margin-top:0.12rem;}
+.content li{width:100%;}
+.content li .tu-box{width:100%;height:1.61rem;}
+.tu-box a,.tu-box a img{display: block;width:100%;height:100%;}
+.content li .neirong{font-size:0.14rem;color:#333;margin-top:0.1rem;}
+.content li .info{width:100%;margin-top:0.125rem;}
+.info .info-l{float:left;font-size:0.13rem;color:#666;}
+.info .info-r{float:right;}
+.info-r .newprice{font-size:0.17rem;color:#f30;float:left;margin-right:0.14rem;}
+.info-r .oldprice{font-size:0.14rem;color:#999;float:right;margin-right:0.14rem;margin-top:0.02rem;text-decoration: line-through;margin-bottom:0.15rem;}
+/*尾部导航*/
+/*.footer{width:3.05rem;padding:0 0.35rem;height:0.49rem;background: #fff;position: fixed;bottom:0;left:0;}
+.footer ul{overflow: hidden;}
+.footer ul li{float:left;width:0.34rem;padding-top: 0.05rem;}
+.footer ul li.fangan{margin:0 0.55rem;}
+.footer ul li.zhuanjia{margin-right:0.55rem;}
+.footer ul li a{width:0.34rem;height:0.44rem;display:block;color:#333;font-size: 0.105rem;text-align: center;}
+.footer ul li a img{width:0.22rem;height:0.22rem;display: block;margin:0 auto;margin-bottom:0.065rem;}
+.footer ul li a img.footer3{width:0.34rem;height:0.22rem;}
+.footer .footer-color{color:#73c8ff;}*/
+

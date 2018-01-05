@@ -1,0 +1,107 @@
+.page{
+	width: 100%;
+	height: auto;
+	background: #70e3f7;
+	overflow: hidden;
+}
+.bg{
+	background: white;
+    background-size: 100% 100%;
+    margin: 0.1rem;
+    overflow: hidden;
+    border: 2px solid #3993a0;
+    border-radius: 10px;
+}
+.ques-title{
+    height: 0.5rem;
+    background: url(../images/baobei.png);
+    background-size: 100% 100%;
+    margin: 0.3rem 0.1rem 0.2rem 0.1rem;
+}
+.peo-num{
+	font-size: 0.14rem;
+	color: #666;
+	margin: 0rem 0rem 0.3rem 0.3rem;
+}
+.progress-bar{
+	margin-left: 0.3rem;
+}
+.num-ratio{
+	float: left;
+	font-size: 0.14rem;
+	color: #666;
+}
+.gray-bar{
+	float: left;
+	width: 2.5rem;
+	height: 0.05rem;
+	background: #c9c9c9;
+	border-radius: 10px;
+	margin: 0.08rem;
+}
+.doing-bar{
+	float: left;
+	width: 0;
+	height: 0.05rem;
+	background: #b4e4b6;
+	border-radius: 10px;
+}
+.wn{
+	display: inline-block;
+    width: 0.21rem;
+    height: 0.12rem;
+    float: right;
+    margin-right: -0.18rem;
+    margin-top: -0.05rem;
+}
+.question{
+	margin: 0.3rem auto;
+    width: 2.9rem;
+    padding: 0.15rem;
+    background: #ebfbfe;
+    border-radius: 6px;
+}
+.ques{
+	font-size: 0.17rem;
+	color: #333;
+	font-weight: bold;
+	line-height: 0.3rem;
+}
+.opc{
+	font-size: 0.15rem;
+	color: #333333;
+	margin-top: 0.06rem;
+	line-height: 0.3rem;
+}
+.up-ques{
+	font-size: 0.15rem;
+    color: #4fdffa;
+    margin-left: 0.38rem;
+    margin-bottom: 0.3rem;
+}
+.next-step{
+    width: 1.6rem;
+    height: 0.4rem;
+    background: url(../images/next.png);
+    background-size: 100% 100%;
+}
+.jump{
+	display: inherit;
+    width: 1.6rem;
+    height: 0.4rem;
+    margin: 0.1rem auto;
+}
+.btm{
+	width: 3.42rem;
+    height: 0.5rem;
+    background: url(../images/quesbtm.png);
+    background-size: 100% 100%;
+    margin: 0.2rem 0.06rem 0.2rem 0.06rem;
+    display: none;
+}
+.blue{
+	color: #70E3F7;
+	font-size: 0.15rem;
+	margin-top: 0.06rem;
+	line-height: 0.3rem;
+}

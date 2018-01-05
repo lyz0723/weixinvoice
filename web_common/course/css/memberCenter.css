@@ -1,0 +1,167 @@
+.page{
+	width: 100%;
+	height: 100%;
+}
+.head{
+	width: 100%;
+	height: 1.8rem;
+	background: url(../images/bg.png);
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.peo-pic{
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	margin: 0.33rem auto 0.1rem;
+	background: url(../images/peo_pic.png);
+	background-size: 100% 100%;
+	border: 2px solid #c3e9fd;
+}
+.peo-name{
+	margin: auto;
+    display: table;
+    border: 2px solid #73cbff;
+    font-size: 0.16rem;
+    color: #73cbff;
+    padding: 3px 0.15rem;
+    border-radius: 30px;
+}
+.contacts-title,.integral-title{
+	width: 100%;
+	height: 0.6rem;
+	border-bottom: 1px solid #EEEEEE;
+}
+.con-title-pic,.integral-title-pic{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../images/contacts.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.15rem;
+}
+.integral-title-pic{
+	background: url(../images/integral.png);
+	background-size: 100% 100%;
+}
+.con-title-word,.integral-title-word{
+	font-size: 0.16rem;
+	color: #333333;
+	float: left;
+	line-height: 0.6rem;
+	margin-left: 0.15rem;
+}
+.contacts-num,.contacts-level,.integral-info{
+	width: 100%;
+	height: 0.61rem;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 0.07rem 0;
+}
+.contacts-today,.contacts-one,.integral-today{
+	width: 1.87rem;
+	height: 100%;
+	border-right: 1px solid #EEEEEE;
+	overflow: hidden;
+	float: left;
+}
+.num{
+	font-size: 0.17rem;
+	color: #ffbf4a;
+	text-align: center;
+	margin-top: 0.09rem;
+}
+.word{
+	font-size: 0.16rem;
+	color: #333333;
+	text-align: center;
+	margin-top: 0.06rem;
+}
+.contacts-all,.contacts-two,.integral-all{
+	width: 1.86rem;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+.contacts{
+	border-bottom: 0.1rem solid #EEEEEE;
+}
+.middle{
+	padding-bottom: 0.6rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.5rem;
+	position: fixed;
+	bottom: 0;
+	background: white;
+	border-top: 0.1rem solid #EEEEEE;
+}
+.pc,.method,.expert,.my{
+	width: 0.3rem;
+	margin-left: 0.5rem;
+	margin-top: 0.06rem;
+	float: left;
+}
+.pc-pic,.method-pic,.expert-pic,.my-pic{
+	width: 0.17rem;
+	height: 0.17rem;
+	background: url(../images/pc.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 0.065rem;
+}
+.method-pic{
+	background: url(../images/method.png);
+	background-size: 100% 100%;
+}
+.expert-pic{
+	background: url(../images/expert.png);
+	background-size: 100% 100%;
+}
+.my-pic{
+	background: url(../images/myblue.png);
+	background-size: 100% 100%;
+}
+.pc-word,.method-word,.expert-word,.my-word{
+	width: 0.3rem;
+	text-align: center;
+	font-size: 0.12rem;
+	float: left;
+	margin-top: 0.06rem;
+}
+.pc a,.method a,.expert a,.my a{
+	display: block;
+}
+.navurl{
+	width: 100%;
+    height: 0.45rem;
+    border-bottom: 1px solid #eee;
+}
+.navurl ul{
+	height: 0.45rem;
+}
+.report{
+	height: 0.28rem;
+    font-size: 0.16rem;
+    color: #333;
+    float: left;
+    margin-left: 0.45rem;
+    padding: 0 0.15rem;
+    background: #41d5f5;
+    border-radius: 0.2rem;
+    margin-top: 0.09rem;
+    line-height: 0.28rem;
+}
+.bgck{
+	color: white;
+    background: #41d5f5;
+}
+.bgfx{
+	color: #41d5f5;
+    background: rgba(65, 213, 245 , 0.2);
+}
+.navurl a{
+	display: inline-block;
+	float: left;
+}

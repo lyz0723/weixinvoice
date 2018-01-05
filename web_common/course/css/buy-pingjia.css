@@ -1,0 +1,217 @@
+.pj-title{
+	width: 2.6rem;
+	height: 0.29rem;
+	margin: 0.24rem auto 0;
+}
+.zhpj{
+	float: left;
+	font-size: 0.15rem;
+}
+.statrs .start,.statrs .start2{
+	margin-top: 0.03rem;
+	margin-left: 0.08rem;
+}
+.pj-num{
+	font-size: 0.15rem;
+	float: right;
+}
+.every-pj{
+	width: 3.75rem;
+	border-bottom: 1px solid #EEEEEE;
+	padding-bottom: 0.1rem;
+	padding-top: 0.1rem;
+}
+.pj-touxiang{
+	float: left;
+    width: 0.39rem;
+    height: 0.39rem;
+    margin-left: 0.09rem;
+}
+.pj-touxiang img{
+	width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    float: left;
+}
+.pj-name{
+	float: left;
+    font-size: 0.15rem;
+    margin-left: 0.1rem;
+    margin-top: 0.02rem;
+}
+.everyone-starts{
+	/*width: 1.01rem;*/
+    height: 0.17rem;
+    margin-top: 0.04rem;
+    float: right;
+    margin-right: 0.1rem;
+}
+.start2{
+	display: inline-block;
+	width: 0.14rem;
+	height: 0.14rem;
+	background: url(../../jzb/images/start1.jpg);
+	background-size: 100% 100%;
+	margin-left: 0.06rem;
+	float: left;
+	margin-top: 0.01rem;
+}
+.pj-content{
+	font-size: 0.13rem;
+    float: left;
+    clear: left;
+    margin-left: 0.59rem;
+    margin-top: 0.04rem;
+}
+.hidden{
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.pj-time{
+	font-size: 0.11rem;
+    color: #999999;
+    margin-top: -0.14rem;
+    float: left;
+    clear: left;
+    margin-left: 0.59rem;
+}
+.pj-hour{
+	display: inline-block;
+	font-size: 0.11rem;
+}
+.pj-ymd{
+	display: inline-block;
+	font-size: 0.11rem;
+}
+.buy-pj{
+	background: white;
+	bottom: 0.0rem;
+	display: none;
+	width: 3.75rem;
+	overflow: hidden;
+}
+.smile{
+	width: 0.25rem;
+	height: 0.25rem;
+	background: url(../images/smile.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.5rem;
+	left: 0.1rem;
+}
+.write{
+    width: 3.55rem;
+    height: 0.9rem;
+    font-size: 0.14rem;
+    color: #666666;
+    border-bottom: 0.01rem solid #EEEEEE;
+    padding: 0.1rem;
+    margin-top: 0.3rem;
+}
+.write-pic{
+	width: 0.18rem;
+	height: 0.18rem;
+	float: left;
+	margin-left: 0.7rem;
+	margin-top: -0.22rem;
+}
+.tijiao{
+	width: 0.5rem;
+    height: 0.3rem;
+    font-size: 0.14rem;
+    position: absolute;
+    top: 1.47rem;
+    left: 3.2rem;
+    border-radius: 0.05rem;
+}
+.qqFace{margin-top: 0.38rem;;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+.qqFace table td{padding:0.5px;float: left;width: 0.3rem;}
+.qqFace table tr,.qqFace table td{display: inline-block;height: 0.3rem;float: left;}
+.qqFace table tr{width:3.75rem;}
+.qqFace table td img{cursor:pointer;border:1px #fff solid;float: left;}
+.qqFace table td img:hover{border:1px #0066cc solid;}
+.facebox{
+	width: 3.55rem;
+	height: 2.0rem;
+}
+.xpl{
+	width: 0.6rem;
+	font-size: 0.14rem;
+	color: #666666;
+}
+.please{
+	position: fixed;
+	bottom: 0;
+	background: white;
+	width: 3.75rem;
+    height: 0.5rem;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 15px;
+    margin: auto;
+    background: url(../../jzb/images/dibu.png);
+    background-size: 100% 100%;
+}
+.ftop{
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 3.75rem;
+	height: 1.8rem;
+	background: white;
+	z-index: 1000;
+}
+.yinying{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.4;
+	display: none;
+}
+.cancle{
+	width: 0.5rem;
+    height: 0.3rem;
+    font-size: 0.14rem;
+    position: absolute;
+    top: 1.47rem;
+    left: 2.6rem;
+    border-radius: 0.05rem;
+    background: white;
+    border: 1px solid #EEEEEE;
+}
+.linee{
+	width: 3.5rem;
+    height: 0.01rem;
+    background: #e8e8e8;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.1rem;
+}
+.grade{
+	width: 2.0rem;
+    height: 0.2rem;
+    background: white;
+    position: absolute;
+    top: -0.1rem;
+    left: 0.8rem;
+}
+.start3{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../images/start3.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 0.165rem;	
+}
+.shibie{}
+.pj-show{
+	padding-bottom: 0.4rem;
+}

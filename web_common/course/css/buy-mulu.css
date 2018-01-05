@@ -1,0 +1,49 @@
+.bg{
+	width: 3.75rem;
+    margin-top: 1px;
+    background: #eee;
+    padding-bottom: 0.05rem;
+}
+.kecheng{
+    height: 0.5rem;
+    background: white;
+    margin-bottom: 1px;
+    line-height: 0.5rem;
+    margin-top: 1px;
+}
+.mulu-title{
+	float: left;
+    margin-left: 0.08rem;
+    font-size: 0.14rem;
+    width: 1.9rem;
+}
+.mulu-time{
+	float: right;
+    font-size: 0.11rem;
+    color: #999999;
+    margin-right: 0.15rem;
+}
+.yuan{
+	width: 0.28rem;
+    height: 0.28rem;
+    background: #f2f2f2;
+    border-radius: 50%;
+    font-size: 0.14rem;
+    float: left;
+    margin-top: 0.11rem;
+    margin-left: 0.1rem;
+    text-align: center;
+    line-height: 0.28rem;
+}
+.color0{
+	color: #ffa1b5;
+}
+.color1{
+	color: #b7a1ff;
+}
+.color2{
+	color: #ffc2a1;
+}
+.color3{
+	color: #a1c2ff;
+}

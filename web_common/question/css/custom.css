@@ -1,0 +1,139 @@
+.page{
+	width: 100%;
+	height: auto;
+	background: #70E3F7;
+	overflow: hidden;
+}
+.bg{
+	background: white;
+    background-size: 100% 100%;
+    margin: 0.1rem;
+    overflow: hidden;
+    border: 2px solid #3993a0;
+    border-radius: 10px;
+}
+.parent{
+	height: 0.5rem;
+    background: url(../images/par_dz.png);
+    background-size: 100% 100%;
+    margin: 0.3rem 0.1rem 0.2rem 0.1rem;
+}
+.word{
+	font-size: 0.14rem;
+    color: #666;
+    margin: 0rem 0rem 0.3rem 0.3rem;
+}
+.check-show{
+	width: 100%;
+	height: 4.0rem;
+	position: relative;
+}
+.check{
+	position: absolute;
+	width: 0.7rem;
+	height: 0.7rem;
+	background: url(../images/luc.png);
+	background-size: 100% 100%;
+	color: #333333;
+	text-align: center;
+	font-size: 0.14rem;
+	line-height: 0.7rem;
+	/*transition: all 1s ease-in-out 0s; 
+    -webkit-transition: all 1s ease-in-out 0s;  */
+    /*top: 2.0rem;
+    left: 1.2rem;*/
+}
+.peo{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: url(../images/quan_4.png);
+	background-size: 100% 100%;
+	position: absolute;
+    top: 2.0rem;
+    left: 1.2rem;;
+}
+.c0{
+	top: 0.1rem;
+    left: 0.9rem;
+}
+.c1{
+	top: 0.10rem;
+    left: 2.0rem;
+}
+.c2{
+	top: 0.7rem;
+    left: 0.3rem;
+}
+.c3{
+	top: 0.9rem;
+    left: 2.6rem;
+}
+.c4{
+    top: 1.5rem;
+    left: 0.35rem;
+}
+.c5{
+	top: 0.9rem;
+    left: 1.4rem;
+}
+.c6{
+	top: 2.9rem;
+    left: 0.5rem;
+    line-height: normal;
+    margin-top: 0.1rem;
+    padding-top: 0.16rem;
+    height: 0.54rem;
+}
+.c7{
+	top: 2.25rem;
+    left: 0.2rem;
+}
+.c8{
+	top: 3.1rem;
+    left: 1.6rem;
+}
+.c9{
+	top: 1.8rem;
+    left: 2.4rem;
+}
+.c10{
+	top: 2.6rem;
+    left: 2.3rem;
+}
+.create{
+    width: 1.6rem;
+    height: 0.4rem;   
+	background: url(../images/create_lec.png);
+    background-size: 100% 100%;
+}
+.jump{
+	display: inherit;
+    width: 1.6rem;
+    height: 0.4rem;
+    margin: 0.1rem auto;
+}
+.btm{
+	width: 3.42rem;
+    height: 0.5rem;
+    background: url(../images/quesbtm.png);
+    background-size: 100% 100%;
+    margin: 0.2rem 0.06rem 0.2rem 0.06rem;
+    display: none;
+}
+.yel{
+	background: url(../images/yel.png);
+	background-size: 100% 100%;
+	position: absolute;
+	width: 0.7rem;
+	height: 0.7rem;
+	color: #333333;
+	text-align: center;
+	font-size: 0.14rem;
+	line-height: 0.8rem;
+}
+.tishi{
+	font-size: 0.16rem;
+    text-align: center;
+    color: #333333;
+    opacity: 0;
+}

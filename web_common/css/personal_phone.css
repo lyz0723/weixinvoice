@@ -1,0 +1,223 @@
+/*页面样式 */
+body, html {
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    font-size: 0.15rem;
+}
+.con-main {
+    width: 3.75rem;
+    background: #fff;
+    margin: 0.15rem auto 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.content  .margin {
+    width: 100%;
+    height: 0.1rem;
+    background: #eee;
+}
+
+.content .main-list {
+    background: #fff;
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    border-bottom: 0.01rem solid #d8d8d8;
+    position: relative;
+}
+
+.content  .main-list div {
+    float: left;
+}
+
+.content  .main-list .list-left {
+    width: 20%;
+    padding: 0 0 0 5%;
+}
+
+.content  .main-list .list-center {
+    width: 50%;
+    text-align: left;
+    color: #848484;
+}
+
+.content  .main-list .list-center input {
+    float: left;
+    font-size: 0.15rem;
+    line-height: 0.48rem;
+}
+
+.content  .main-list .text-delete {
+    width: 0.15rem;
+    height: 0.15rem;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    margin: -0.06rem -0rem;
+}
+
+.content  .main-list .text-delete img {
+    width: 100%;
+    height: 100%;
+}
+
+.content  .main-list .list-right {
+    width: 25%;
+    min-width: 0.1rem;
+    min-height: 0.1rem;
+    text-align: left;
+    color: #848484;
+    min-width: 0.01rem;
+}
+
+/*button*/
+.content .con-main-button {
+    width: 95%;
+    height: 0.45rem;
+    padding: 2.5%;
+    margin: 0.26rem 0;
+}
+
+.content .con-main-button input {
+    width: 100%;
+    height: 0.45rem;
+    background: #bdbdbd;
+    border-radius: 0.05rem;
+    color: #fff;
+    font-size: 0.17rem;
+}
+
+/*验证码*/
+.ifmtion {
+    width: 90%;
+    padding: 0 0.18rem;
+    display: block;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.ifmt-form-span {
+    width: 22%;
+    float: left;
+}
+
+.ifmt-form-input {
+    width: 50%;
+    float: left;
+    font-size: 0.15rem;
+    line-height: 0.48rem;
+}
+
+.ifmt-form-input input {
+    height: 0.5rem;
+    font-size: 0.15rem;
+    margin-right: 0.1rem;
+    color: #ccc;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ccc;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ccc;
+}
+
+
+.ifmt-form-code {
+    width: 0.87rem;
+    height: 0.28rem;
+    font-size: 0.14rem;
+    background: #fff;
+    float: right;
+    margin: 0.1rem 0;
+    text-align: center;
+    line-height: 0.28rem;
+    color: #ccc;
+}
+
+.ifmt-form-code-t {
+    width: 0.65rem;
+    height: 0.3rem;
+    line-height: 0.31rem;
+    border: 1px solid #51c2e6;
+    text-align: center;
+    font-size: 0.15rem;
+    color: #51c2e6;
+    font-weight: bold;
+    border-radius: 0.02rem;
+}
+
+.ifmt-form-btn {
+    border: none;
+    margin: 0.55rem auto 0;
+    width: 50%;
+}
+
+.ifmt-form-btn input {
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    background: #67D0F1;
+    border-radius: 0.05rem;
+    font-size: 0.15rem;
+    color: #fff;
+}
+.xiugai1{
+    display: none;
+}
+.xiugai2{
+    display: block;
+}
+.tel-infor{
+    width: 3.75rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tel-infor span{
+    padding-left: 0.15rem;
+}
+.xiugai1-btn{
+    margin: 0.2rem auto;
+    width: 3.45rem;
+    line-height: 0.45rem;
+    background: #51c2e6;
+    color: #fff;
+    border-radius: 0.05rem;
+    text-align: center;
+    font-size: 0.17rem;
+    font-weight: bold;
+
+}
+.tips{
+    padding: 0.1rem;
+    color: #666;
+    font-size: 0.12rem;
+}
+
+
+
+
+
+
+
