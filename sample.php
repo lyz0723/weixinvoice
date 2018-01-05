@@ -19,7 +19,7 @@ $signPackage = $jssdk->GetSignPackage();
     <script src="web_common/js/rem.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-<input type="hidden" class="addressUrl" value="{$Think.config.SITE_URL}"/>
+<input type="hidden" class="addressUrl" value="http://liyanzhao.feisir.com/weixinvoice/"/>
 <div class="page">
     <!--正在加载-->
     <span class="alert_loading">正在加载</span>
