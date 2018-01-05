@@ -234,10 +234,10 @@ $signPackage = $jssdk->GetSignPackage();
         //微信配置
         wx.config({
             //debug:true,
-            appId: "{$signPackage.appId}",
-            timestamp: "{$signPackage.timestamp}",
-            nonceStr:"{$signPackage.nonceStr}",
-            signature: "{$signPackage.signature}",
+            appId: '<?php echo $signPackage["appId"];?>',
+            timestamp: <?php echo $signPackage["timestamp"];?>,
+            nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+            signature: '<?php echo $signPackage["signature"];?>',
             jsApiList: [
                 'startRecord',      //开始录音
                 'stopRecord',       //停止录音
