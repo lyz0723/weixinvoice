@@ -117,7 +117,8 @@ $(document).ready(function(){
 		var arr2=[];
 		$.ajax({
 			type:"post",
-			url:addUrl+"index.php/Home/Live/ajaxGetBroadcast",
+			//url:addUrl+"index.php/Home/Live/ajaxGetBroadcast",
+            url:addUrl+"Live/ajaxGetBroadcast.php",
 			dataType:"json",
 			data:{
 				lesson_id:less_id
@@ -422,7 +423,8 @@ $(document).ready(function(){
 		}else{
 			$.ajax({
 				type:'post',
-				url:addUrl+'index.php/Home/Live/ajaxAddDiscuss',
+				//url:addUrl+'index.php/Home/Live/ajaxAddDiscuss',
+                url:addUrl+'Live/ajaxAddDiscuss.php',
 				//dataType:'json',
 				data:{content:$(".write").val()},
 				success:function(json){
@@ -476,7 +478,8 @@ $(document).ready(function(){
 	var M;
 	$.ajax({
 		type:"post",
-		url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+		//url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+        url:addUrl+"Live/ajaxGetDiscussAll.php",
 		dataType:"jsonp",
 		success:function(data){
 			var data = eval(data);
@@ -509,7 +512,8 @@ $(document).ready(function(){
 		}
 		$.ajax({
 			type:"post",
-			url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+			//url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+            url:addUrl+"Live/ajaxGetDiscussAll.php",
 			dataType:"jsonp",
 			success:function(data){
 				var data = eval(data);
@@ -538,7 +542,8 @@ $(document).ready(function(){
 		//统计人次
 		$.ajax({
 			type:"get",
-			url:addUrl+"index.php/Home/Live/ajaxGetPerTimes",
+			//url:addUrl+"index.php/Home/Live/ajaxGetPerTimes",
+            url:addUrl+"Live/ajaxGetPerTimes.php",
 			dataType:"jsonp",
 			success:function(data){
 				$(".peo_num").html(data.info+"人次");
@@ -552,7 +557,8 @@ $(document).ready(function(){
 		$(".dis_show").html("");
 		$.ajax({
 			type:"post",
-			url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+			//url:addUrl+"index.php/Home/Live/ajaxGetDiscussAll",
+            url:addUrl+"Live/ajaxGetDiscussAll.php",
 			dataType:"jsonp",
 			success:function(data){
 				var str = '';
@@ -622,7 +628,8 @@ $(document).ready(function(){
 			//讲师文字数据交互
 			$.ajax({
 				type:"post",
-				url:addUrl+"index.php/Home/Live/ajaxSaveVoice",
+				//url:addUrl+"index.php/Home/Live/ajaxSaveVoice",
+                url:addUrl+"Live/ajaxSaveVoice.php",
 				dataType:"jsonp",
 				data:{
 					type:2,
@@ -669,7 +676,8 @@ $(document).ready(function(){
         alert($(".replay_upwall").val())
 		$.ajax({
 			type:"post",
-			url:addUrl+"index.php/Home/Live/ajaxAddReply",
+			//url:addUrl+"index.php/Home/Live/ajaxAddReply",
+            url:addUrl+"Live/ajaxAddReply.php",
 			dataType:"jsonp",
 			data:{
 				discuss_id:id,
@@ -715,7 +723,8 @@ $(document).ready(function(){
 			console.log(content);
 			$.ajax({
 				type:"post",
-				url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+				//url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+                url:addUrl+"Live/ajaxDelBroContent.php",
 				dataType:"jsonp",
 				data:{
 					type:type,
@@ -734,7 +743,8 @@ $(document).ready(function(){
 				//如果没有src存的路径是data-src；
 				$.ajax({
 					type:"post",
-					url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+					//url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+                    url:addUrl+"Live/ajaxDelBroContent.php",
 					dataType:"jsonp",
 					data:{
 						type:type,
@@ -749,7 +759,8 @@ $(document).ready(function(){
 				//路径变成src
 				$.ajax({
 					type:"post",
-					url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+					//url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+                    url:addUrl+"Live/ajaxDelBroContent.php",
 					dataType:"jsonp",
 					data:{
 						type:type,
@@ -767,7 +778,8 @@ $(document).ready(function(){
 			console.log(word_con);
 			$.ajax({
 				type:"post",
-				url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+				//url:addUrl+"index.php/Home/Live/ajaxDelBroContent",
+                url:addUrl+"Live/ajaxDelBroContent.php",
 				dataType:"jsonp",
 				data:{
 					type:type,
@@ -792,7 +804,8 @@ $(document).ready(function(){
 	$(".close_true").on("click",function(){
 		$.ajax({
 			type:"get",
-			url:addUrl+"index.php/Home/Live/ajaxLessonShutDown",
+			//url:addUrl+"index.php/Home/Live/ajaxLessonShutDown",
+            url:addUrl+"Live/ajaxLessonShutDown.php",
 			dataType:"jsonp",
 			success:function(data){
 				$(".close_float").remove();
@@ -833,7 +846,8 @@ $(document).ready(function(){
 		console.log(userId);
 		$.ajax({
 			type:"get",
-			url:addUrl+"index.php/Home/Live/ajaxShutUp",
+			//url:addUrl+"index.php/Home/Live/ajaxShutUp",
+            url:addUrl+"Live/ajaxShutUp.php",
 			dataType:"json",
 			data:{
 				discuss_id:userId
@@ -881,7 +895,8 @@ function upLoadVoice(localId,m){
 		isShowProgressTips: 1, // 默认为1，显示进度提示
 		success: function (res) {
 			$.ajax({
-				url:addUrl+'index.php/Home/Live/ajaxSaveVoice',
+				//url:addUrl+'index.php/Home/Live/ajaxSaveVoice',
+                url:addUrl+'Live/ajaxSaveVoice.php',
 				type:'post',
 				dataType:'json',
 				data:{
