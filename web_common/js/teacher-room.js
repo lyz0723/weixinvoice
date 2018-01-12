@@ -303,22 +303,7 @@ $(document).ready(function(){
 			var hour = myDate.getHours();
 			var minutes = myDate.getMinutes();
 			var seconds = myDate.getSeconds();
-			$(".voice_show").append('<div class="voice_message message">' +
-            '<div class="message_time">'+year+"-"+month+"-"+day+" "+hour+":"+minutes+":"+seconds+'</div>' +
-            '<div class="poster_info">' +
-            '<p class="poster_name">'+nick_name+'</p>' +
-            '<p class="poster_iden">讲师</p>' +
-            '</div>' +
-            '<div class="message_info">' +
-            '<div class="poster_pic">' +
-            '</div>' +
-            '<div class="voiceandtime"><div class="message_voice" style="width:'+wid+'">' +
-            '<audio src="" type="video/mp3" class="yy"></audio><img src="'+urlval+'jzb2/images/zj-jiao.png" class="jiao"/><img src="'+urlval+'jzb2/images/zj-stop.png" class="gif"/><img src="'+urlval+'jzb2/images/recall.png" class="recall1 recall" data-type="1"/></div>' +
-            '<div class="voice_time">' +
-            '<div class="red_cir">' +
-            '</div>' +
-            '<div class="time_num">'+m+'"</div>' +
-            '</div></div></div></div>');
+			$(".voice_show").append('<div class="voice_message message"><div class="message_time">'+year+"-"+month+"-"+day+" "+hour+":"+minutes+":"+seconds+'</div><div class="poster_info"><p class="poster_name">'+nick_name+'</p><p class="poster_iden">讲师</p></div><div class="message_info"><div class="poster_pic"></div><div class="voiceandtime"><div class="message_voice" style="width:'+wid+'"><audio src="" type="video/mp3" class="yy"></audio><img src="'+urlval+'jzb2/images/zj-jiao.png" class="jiao"/><img src="'+urlval+'jzb2/images/zj-stop.png" class="gif"/><img src="'+urlval+'jzb2/images/recall.png" class="recall1 recall" data-type="1"/></div><div class="voice_time"><div class="red_cir"></div><div class="time_num">'+m+'"</div></div></div></div></div>');
 			//$(".poster_pic").css({background:"url("+head_img_url+")",backgroundSize:"100% 100%"});
 			clearInterval(numtime);
 			var upsrc = $(".upsrc").attr("data-upSrc");
